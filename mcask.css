@@ -1,0 +1,33 @@
+body {
+  background-image: url("images/bg.png");
+  background-size: cover;
+  width: 600px;
+  height: 400px;
+}
+
+.mytitle {
+  font-family:'Courier New', Courier, monospace;
+  font-size: 30px;
+  color: #000;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.vertical-menu {
+  width: 260px;
+  margin: 0 auto;
+}
+
+.vertical-menu a {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #eee; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
+}
